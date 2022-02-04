@@ -31,10 +31,6 @@ public class ReservationSteps {
 
 	@When("^Избере места:$")
 	public void chooseSeats(final List<Integer> seats) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
 		reservationScreen.setSeats(seats);
 	}
 
